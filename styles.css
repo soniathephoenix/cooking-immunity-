@@ -1,15 +1,41 @@
 
 body{
-    
+  background: #0a2463;
+  color:#fffaff
+}
+
+a {
+  color: #fffaff;
+  padding: 20px 20px;
+  background: #3e92cc;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #d8315b;
+}
+
+.nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+h1{
+  margin-right: 100px;
+  font-size: 30px;
+  color: #fffaff;
 }
 
 img{
-    width: 50px;
-    margin: 5px;
+  margin-right: 450px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px #3e92cc;
 }
 
-#logotitle{
-    display:flex;
-    justify-content: space-between;
-    align-items: start;
+.slogan{
+  font-size: 70px;
+  text-align: center;
 }
